@@ -1,0 +1,29 @@
+## Deskripsi : 
+This file seems broken... or is it? Maybe a couple of bytes could make all the difference. Can you figure out how to bring it back to life?
+
+<br>
+
+## Petunjuk :
+
+1.Try checking the file’s header.
+2.JPEG
+3.Tools like xxd or hexdump can help you inspect and edit file bytes.
+
+<br>
+
+## Pengerjaan
+Kita diberikan sebuah file yang katanya sudah rusak
+
+Menuruk petunjuk file harusnya berekstensi jpeg
+
+Buka website https://hexed.it/,tempat untuk melihat dan mengubah header sebuah file
+
+Masukkan file tersebut ke website hexed.it
+
+Dapat dilihat headernya tidak sesuai dengan header jpeg
+
+Sesuaikan header file tersebut dengan header jpeg yaitu FF DD FF pada bagian 3 pertama
+
+Download file yang sudah diganti headernya,lalu buat di linux
+
+Flag langsung tertera pada gambar
